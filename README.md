@@ -41,7 +41,7 @@ https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?l=Volleyball
 
 * HTML
 * CSS
-* JavaScript (Vanilla JS)
+* JavaScript 
 * Fetch API
 
 ---
@@ -65,10 +65,4 @@ https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?l=Volleyball
 * Add match schedules
 * Improve UI/UX
 * Add animations
-
----
-
-## Author
-
-Your Name
 
