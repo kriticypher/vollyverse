@@ -1,13 +1,12 @@
-// DOM elements
+
 const container = document.getElementById("teamsContainer");
 const loader = document.getElementById("loader");
 const error = document.getElementById("error");
 const searchInput = document.getElementById("searchInput");
 
-// Store all teams
 let allTeams = [];
 
-// Fetch teams from API
+
 async function fetchTeams() {
   loader.style.display = "block";
   error.style.display = "none";
@@ -28,7 +27,7 @@ async function fetchTeams() {
   loader.style.display = "none";
 }
 
-// Display team cards
+
 function displayTeams(teams) {
   container.innerHTML = "";
 
@@ -55,12 +54,6 @@ function displayTeams(teams) {
   });
 }
 
-// Search filter
-searchInput.addEventListener("input", () => {
-  const query = searchInput.value.toLowerCase();
-  const filtered = allTeams.filter(t => t.strTeam.toLowerCase().includes(query));
-  displayTeams(filtered);
-});
 
 
 fetchTeams();
