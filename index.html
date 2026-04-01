@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VolleyVerse – Explore volleyball teams from around the world.">
+  <title>VolleyVerse</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <nav>
+    <div class="nav-brand">🏐 VolleyVerse</div>
+    <input type="text" id="searchInput" placeholder="Search teams...">
+  </nav>
+
+
+  <div id="loader">
+    <div class="loader-ball">🏐</div>
+    <p>Loading teams...</p>
+  </div>
+
+
+  <div id="error" style="display:none;">
+    <p>Could not load teams.</p>
+    <button onclick="fetchTeams()">Retry</button>
+  </div>
+
+
+  <main id="teamsContainer"></main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
