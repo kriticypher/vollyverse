@@ -13,7 +13,18 @@
 
   <nav>
     <div class="nav-brand">🏐 VolleyVerse</div>
-    <input type="text" id="searchInput" placeholder="Search teams...">
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search teams...">
+      <select id="filterSelect" class="control-select">
+        <option value="all">All Countries</option>
+      </select>
+      <select id="sortSelect" class="control-select">
+        <option value="default">Sort by Alphabetical Order</option>
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </select>
+      <button id="themeToggle" class="theme-btn" title="Toggle Theme">🌙</button>
+    </div>
   </nav>
 
 
