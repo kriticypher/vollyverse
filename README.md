@@ -2,7 +2,6 @@
 
 **VolleyVerse** is a premium, interactive web application designed for volleyball enthusiasts to explore professional teams from around the globe. Built with a focus on modern aesthetics and smooth user experience, it leverages real-time data from TheSportsDB API to provide up-to-date team information.
 
-![VolleyVerse Preview](https://via.placeholder.com/800x400?text=VolleyVerse+Interface+Preview) <!-- Replace with actual screenshot after deployment -->
 
 ---
 
