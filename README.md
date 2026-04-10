@@ -6,19 +6,19 @@
 
 ---
 
-## ✨ Features
+##  Features
 
--   **🌍 Real-Time Data**: Fetches live volleyball team data from TheSportsDB API.
--   **🔍 Dynamic Search**: Instantly find teams by name with a responsive search bar.
--   **📍 Smart Filtering**: Filter teams based on their home country.
--   **🔢 Advanced Sorting**: Organize teams alphabetically (A-Z or Z-A).
--   **🌓 Dark Mode**: Toggle between a cozy dark theme and a vibrant light theme.
--   **📱 Fully Responsive**: Optimized for desktop, tablet, and mobile viewing.
--   **✨ Premium UI**: Features glassmorphism effects, smooth animations, and a curated color palette.
+-   ** Real-Time Data**: Fetches live volleyball team data from TheSportsDB API.
+-   ** Dynamic Search**: Instantly find teams by name with a responsive search bar.
+-   ** Smart Filtering**: Filter teams based on their home country.
+-   ** Advanced Sorting**: Organize teams alphabetically (A-Z or Z-A).
+-   ** Dark Mode**: Toggle between a cozy dark theme and a vibrant light theme.
+-   ** Fully Responsive**: Optimized for desktop, tablet, and mobile viewing.
+-   ** Premium UI**: Features glassmorphism effects, smooth animations, and a curated color palette.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 -   **Frontend**: HTML5, Vanilla CSS3 (Custom properties, Flexbox, Grid)
 -   **Logic**: JavaScript (ES6+), Fetch API, LocalStorage
@@ -27,16 +27,16 @@
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/VolleyVerse.git
+
 ```
 
 ### 2. Navigate to the project folder
 ```bash
-cd VolleyVerse
+
 ```
 
 ### 3. Open the project
@@ -48,20 +48,19 @@ Simply open `index.html` in your favorite web browser, or use a "Live Server" ex
 
 This project is ready to be deployed on platforms like **Vercel**, **Netlify**, or **GitHub Pages**.
 
-**Live Demo**: [Coming Soon] <!-- Update this after deployment -->
-
+**Live Demo**: [Coming Soon] 
 ---
 
 ## 📈 Future Roadmap
 
--   [ ] **Detailed Team Pages**: View full team history and trophies.
--   [ ] **Player Profiles**: Explore rosters and individual player stats.
--   [ ] **Live Scores**: Integrate a live matches API.
--   [ ] **User Favorites**: Allow users to save their favorite teams.
+-   [] **Detailed Team Pages**: View full team history and trophies.
+-   [] **Player Profiles**: Explore rosters and individual player stats.
+-   [] **Live Scores**: Integrate a live matches API.
+-   [] **User Favorites**: Allow users to save their favorite teams.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
